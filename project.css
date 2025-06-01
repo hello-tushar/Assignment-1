@@ -38,13 +38,19 @@ li:hover{
     width: 100%;
     margin-top: 30px;
     
+    
     /* background-image: url(images/background.avif); */
     /* color: white; */
 }
 
 .banner-left{
     width: 400px;
+    margin-left: 100px;
     line-height: 2;
+}
+
+.banner-right{
+    margin-left: 80px;
 }
 
 .btn{
@@ -182,6 +188,93 @@ h3{
     text-align: center;
 }
 
+
+@media (max-width: 600px) {
+    
+    .banner-left{
+        margin-left: 90px;
+    }
+
+    .banner-right{
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 50%;
+    }
+
+  .project1{
+    margin-left: 90px;
+  }
+  .project2{
+    margin-left: 90px;
+  }
+
+  .ex{
+    margin-left: 90px;
+  }
+
+    .submit-btn{
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(155, 142, 142);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+
+    .input-box{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    }
+
+
+    .message{
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    margin-top: 20px;
+    }
+
+    .foot{
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project1 {
+    margin-left: 110px;
+  }
+
+  .project2{
+    margin-left: 110px;
+  }
+
+
+
+    .submit-btn{
+    width: 12%;
+    padding: 10px;
+    background-color: rgb(155, 142, 142);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+
+    .input-box{
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    }
+
+    .message{
+    width: 80%;
+    padding: 10px;
+    height: 200px;
+    margin-top: 20px;
+    }
+}
 
 
 
