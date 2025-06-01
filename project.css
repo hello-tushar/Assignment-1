@@ -1,0 +1,187 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(182, 175, 175);
+    /* padding: 10px; */
+}
+
+.Logo{
+    width: 100px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+li:hover{
+    color: rgb(118, 118, 131);
+    cursor: pointer;
+}
+
+.menu-container{
+    gap: 15px;
+}
+
+
+.Banner-image{
+    width: 250px;
+
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    
+    /* background-image: url(images/background.avif); */
+    /* color: white; */
+}
+
+.banner-left{
+    width: 400px;
+    line-height: 2;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    color: rgb(9, 63, 63);
+    font-size: 24px;
+}
+
+
+.portfolio-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.image1{
+    width: 500px;
+}
+
+
+
+
+.project1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 1px solid black;
+}
+
+
+
+.righ-side1{
+    width: 400px;
+    line-height: 2;
+}
+
+
+.left-side1{
+    width: 500px;
+}
+
+
+
+
+
+
+
+.project2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 1px solid black;
+    
+}
+
+
+
+.righ-side2{
+    width: 400px;
+    line-height: 2;
+}
+
+
+.left-side2{
+    width: 500px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.ex{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.btn-ex{
+    border: none;
+    cursor: pointer;
+    color: rgb(83, 102, 102);
+    font-size: 18px;
+}
+
+
+
+
+.contact-us{
+    padding: 50px;
+    /* width: 75%;
+    margin: auto; */
+    text-align: center;
+}
+
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.message{
+    width: 50%;
+    padding: 15px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+.submit-btn{
+    width: 5%;
+    padding: 15px;
+    background-color: rgb(155, 142, 142);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.foot{
+    text-align: center;
+}
+
+
+
+
